@@ -17,4 +17,3 @@ jobs:
           apiKey: ${{ secrets.CF_API_TOKEN }}
           email: ${{ secrets.CF_EMAIL }}
           environment: production
-          workingDirectory: /public
